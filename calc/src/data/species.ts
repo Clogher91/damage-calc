@@ -10011,6 +10011,751 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 5.4,
     abilities: {0: 'Gooey'},
   },
+   'Dragonite-Insectoid': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 90, at: 120, df: 95, sa: 120, sd: 94, sp: 96 },
+        weightkg: 0,
+        abilities: { 0: 'Compound Eyes' },
+    },
+    'Goodra-RelicCastle': {
+        types: ['Ground', 'Water'],
+        bs: { hp: 90, at: 100, df: 70, sa: 110, sd: 150, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Overcoat' },
+    },
+    'Kyurem-Oblivion': {
+        types: ['Dark', 'Dragon'],
+        bs: { hp: 125, at: 75, df: 115, sa: 75, sd: 115, sp: 95 },
+        weightkg: 0,
+        abilities: { 0: 'Intimidate' },
+    },
+    'Tyranitar-DeepSea': {
+        types: ['Water'],
+        bs: { hp: 120, at: 115, df: 110, sa: 80, sd: 115, sp: 60 },
+        weightkg: 0,
+        abilities: { 0: 'Intimidate' },
+    },
+    'Metagross-Insectoid': {
+        types: ['Bug', 'Ground'],
+        bs: { hp: 80, at: 135, df: 130, sa: 95, sd: 90, sp: 70 },
+        weightkg: 0,
+        abilities: { 0: 'Poison Touch' },
+    },
+    'Metagross-Temple': {
+        types: ['Grass', 'Rock'],
+        bs: { hp: 80, at: 135, df: 130, sa: 95, sd: 90, sp: 70 },
+        weightkg: 0,
+        abilities: { 0: 'Sturdy' },
+    },
+    'Dragonite-Gembound': {
+        types: ['Ice', 'Psychic'],
+        bs: { hp: 100, at: 125, df: 82, sa: 83, sd: 90, sp: 120 },
+        weightkg: 0,
+        abilities: { 0: 'Magic Guard' },
+    },
+    'Landorus-Venomous': {
+        types: ['Poison', 'Grass'],
+        bs: { hp: 89, at: 115, df: 90, sa: 125, sd: 80, sp: 101 },
+        weightkg: 0,
+        abilities: { 0: 'Poison Touch' },
+    },
+    'Skarmory-Steampunk': {
+        types: ['Steel', 'Fire'],
+        bs: { hp: 90, at: 105, df: 90, sa: 105, sd: 95, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Flame Body' },
+    },
+    'Tornadus-Steampunk': {
+        types: ['Steel', 'Flying'],
+        bs: { hp: 79, at: 115, df: 70, sa: 125, sd: 80, sp: 111 },
+        weightkg: 0,
+        abilities: { 0: 'Full Metal Body' },
+    },
+    'Rapidash-Forest': {
+        types: ['Grass'],
+        bs: { hp: 70, at: 105, df: 70, sa: 120, sd: 80, sp: 115 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' },
+    },
+    'Purugly-Anubis': {
+        types: ['Dark'],
+        bs: { hp: 130, at: 105, df: 90, sa: 60, sd: 90, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' },
+    },
+    'Primarina-Koi': {
+        types: ['Water', 'Fire'],
+        bs: { hp: 100, at: 74, df: 89, sa: 126, sd: 86, sp: 75 },
+        weightkg: 0,
+        abilities: { 0: 'Wonder Skin' },
+    },
+    'Lumineon-Rainbow': {
+        types: ['Water', 'Fairy'],
+        bs: { hp: 81, at: 117, df: 80, sa: 76, sd: 86, sp: 110 },
+        weightkg: 0,
+        abilities: { 0: 'Marvel Scale' },
+    },
+    'Flygon-Venomous': {
+        types: ['Poison', 'Dragon'],
+        bs: { hp: 101, at: 72, df: 95, sa: 85, sd: 115, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Poison Point' },
+    },
+    'Polteageist-Anubis': {
+        types: ['Ghost', 'Ground'],
+        bs: { hp: 80, at: 65, df: 85, sa: 134, sd: 114, sp: 70 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' },
+    },
+    'Lucario-Phantom': {
+        types: ['Ghost', 'Dark'],
+        bs: { hp: 80, at: 85, df: 75, sa: 120, sd: 75, sp: 108 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' },
+    },
+    'Milotic-Skeletal': {
+        types: ['Ghost', 'Water'],
+        bs: { hp: 95, at: 60, df: 79, sa: 100, sd: 125, sp: 81 },
+        weightkg: 0,
+        abilities: { 0: 'Regenerator' },
+    },
+    'Glameow-Anubis': {
+        types: ['Dark'],
+        bs: { hp: 100, at: 60, df: 60, sa: 100, sd: 90, sp: 130 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' }
+    },
+    'Haxorus-Pirate': {
+        types: ['Water', 'Steel'],
+        bs: { hp: 76, at: 147, df: 90, sa: 60, sd: 70, sp: 97 },
+        weightkg: 0,
+        abilities: { 0: 'Strong Jaw' }
+    },
+    'Golurk-DeepSea': {
+        types: ['Steel', 'Water'],
+        bs: { hp: 105, at: 75, df: 110, sa: 120, sd: 95, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Battle Armor' }
+    },
+    'Noivern-Metal': {
+        types: ['Grass', 'Electric'],
+        bs: { hp: 85, at: 70, df: 80, sa: 97, sd: 80, sp: 123 },
+        weightkg: 0,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    'Braixen-Phantom': {
+        types: ['Ghost', 'Fire'],
+        bs: { hp: 75, at: 69, df: 72, sa: 114, sd: 100, sp: 104 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' }
+    },
+    'Typhlosion-Charged': {
+        types: ['Electric', 'Steel'],
+        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Motor Drive' }
+    },
+    'Typhlosion-Coral': {
+        types: ['Water'],
+        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Torrent' }
+    },
+    'Charizard-DeepSea': {
+        types: ['Water', 'Flying'],
+        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Hydration' }
+    },
+    'Charizard-Skeletal': {
+        types: ['Ghost', 'Dragon'],
+        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Shadow Shield' }
+    },
+    'Serperior-DeepSea': {
+        types: ['Water', 'Dragon'],
+        bs: { hp: 75, at: 80, df: 95, sa: 75, sd: 95, sp: 113 },
+        weightkg: 0,
+        abilities: { 0: 'Hydration' }
+    },
+    'Aggron-Phantom': {
+        types: ['Ghost', 'Steel'],
+        bs: { hp: 70, at: 110, df: 65, sa: 55, sd: 180, sp: 50 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' }
+    },
+    'Conkledurr-Forest': {
+        types: ['Grass', 'Fighting'],
+        bs: { hp: 75, at: 140, df: 75, sa: 100, sd: 110, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Torracat-Dynasty': {
+        types: ['Dragon', 'Fire'],
+        bs: { hp: 95, at: 70, df: 80, sa: 105, sd: 90, sp: 90 },
+        weightkg: 0,
+        abilities: { 0: 'Merciless' }
+    },
+    'Mamoswine-Fantasy': {
+        types: ['Steel', 'Ground'],
+        bs: { hp: 120, at: 130, df: 80, sa: 50, sd: 90, sp: 60 },
+        weightkg: 0,
+        abilities: { 0: 'Battle Armor' }
+    },
+    'Feraligatr-River': {
+        types: ['Grass', 'Water'],
+        bs: { hp: 85, at: 105, df: 100, sa: 79, sd: 83, sp: 78 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Greninja-Infernal': {
+        types: ['Fire', 'Grass'],
+        bs: { hp: 72, at: 95, df: 67, sa: 103, sd: 71, sp: 122 },
+        weightkg: 0,
+        abilities: { 0: 'Flame Body' }
+    },
+    'Kingler-Metal': {
+        types: ['Steel', 'Fire'],
+        bs: { hp: 115, at: 130, df: 120, sa: 50, sd: 50, sp: 65 },
+        weightkg: 0,
+        abilities: { 0: 'Heavy Metal' }
+    },
+    'Tauros-Patriotic': {
+        types: ['Fire', 'Normal'],
+        bs: { hp: 80, at: 111, df: 95, sa: 61, sd: 84, sp: 97 },
+        weightkg: 0,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Noctowl-Arctic': {
+        types: ['Ice', 'Flying'],
+        bs: { hp: 110, at: 50, df: 100, sa: 100, sd: 106, sp: 60 },
+        weightkg: 0,
+        abilities: { 0: 'No Guard' }
+    },
+    'Blastoise-Forest': {
+        types: ['Grass', 'Poison'],
+        bs: { hp: 79, at: 83, df: 100, sa: 80, sd: 105, sp: 78 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Meganium-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Glaceon-Anubis': {
+        types: ['Ground'],
+        bs: { hp: 110, at: 130, df: 65, sa: 60, sd: 95, sp: 65 },
+        weightkg: 0,
+        abilities: { 0: 'Sand Force' }
+    },
+    'Vigoroth-Charged': {
+        types: ['Electric'],
+        bs: { hp: 90, at: 105, df: 95, sa: 65, sd: 70, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Defiant' }
+    },
+    'Lucario-Temple': {
+        types: ['Fighting', 'Psychic'],
+        bs: { hp: 70, at: 110, df: 75, sa: 110, sd: 70, sp: 90 },
+        weightkg: 0,
+        abilities: { 0: 'Inner Focus' }
+    },
+    'Venusaur-Infernal': {
+        types: ['Fire', 'Dark'],
+        bs: { hp: 80, at: 82, df: 82, sa: 100, sd: 100, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Lopunny-KurianDark': {
+        types: ['Ghost', 'Normal'],
+        bs: { hp: 85, at: 100, df: 84, sa: 54, sd: 96, sp: 105 },
+        weightkg: 0,
+        abilities: { 0: 'Unnerve' }
+    },
+    'Venusaur-Coral': {
+        types: ['Water', 'Grass'],
+        bs: { hp: 74, at: 83, df: 86, sa: 105, sd: 100, sp: 75 },
+        weightkg: 0,
+        abilities: { 0: 'Regenerator' }
+    },
+    'Coalossal-Arctic': {
+        types: ['Ice', 'Fairy'],
+        bs: { hp: 100, at: 70, df: 130, sa: 90, sd: 100, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Serene Grace' }
+    },
+    'Ribombee-Ethereal': {
+        types: ['Fairy', 'Psychic'],
+        bs: { hp: 70, at: 60, df: 70, sa: 125, sd: 90, sp: 105 },
+        weightkg: 0,
+        abilities: { 0: 'Levitate' }
+    },
+    'Arbok-Anubis': {
+        types: ['Poison', 'Dark'],
+        bs: { hp: 92, at: 95, df: 99, sa: 65, sd: 89, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Mummy' }
+    },
+    'Gardevoir-Angelic': {
+        types: ['Electric', 'Ice'],
+        bs: { hp: 68, at: 65, df: 65, sa: 125, sd: 115, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Lightning Rod' }
+    },
+    'Gallade-Angelic': {
+        types: ['Electric', 'Ice'],
+        bs: { hp: 68, at: 125, df: 65, sa: 65, sd: 115, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Volt Absorb' }
+    },
+    'Aurorus-Pirate': {
+        types: ['Ground', 'Water'],
+        bs: { hp: 128, at: 72, df: 86, sa: 100, sd: 76, sp: 53 },
+        weightkg: 0,
+        abilities: { 0: 'Water Absorb' }
+    },
+    'Clefable-Demonic': {
+        types: ['Fairy', 'Dark'],
+        bs: { hp: 100, at: 70, df: 73, sa: 105, sd: 90, sp: 75 },
+        weightkg: 0,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Accelgor-Shadow': {
+        types: ['Bug', 'Dark'],
+        bs: { hp: 80, at: 125, df: 50, sa: 80, sd: 50, sp: 125 },
+        weightkg: 0,
+        abilities: { 0: 'Infiltrator' }
+    },
+    'Farfetch\'d-Skeletal': {
+        types: ['Ghost', 'Flying'],
+        bs: { hp: 92, at: 120, df: 85, sa: 50, sd: 90, sp: 70 },
+        weightkg: 0,
+        abilities: { 0: 'Wandering Spirit' }
+    },
+    'Machamp-City': {
+        types: ['Normal', 'Fighting'],
+        bs: { hp: 95, at: 140, df: 90, sa: 55, sd: 80, sp: 45 },
+        weightkg: 0,
+        abilities: { 0: 'Limber' }
+    },
+    'Conkledurr-City': {
+        types: ['Normal', 'Fighting'],
+        bs: { hp: 115, at: 145, df: 105, sa: 45, sd: 60, sp: 35 },
+        weightkg: 0,
+        abilities: { 0: 'No Guard' }
+    },
+    'Escavalier-Thunder': {
+        types: ['Dark', 'Electric'],
+        bs: { hp: 70, at: 100, df: 105, sa: 100, sd: 105, sp: 20 },
+        weightkg: 0,
+        abilities: { 0: 'Battle Armor' }
+    },
+    'Escavalier-Fire': {
+        types: ['Dark', 'Fire'],
+        bs: { hp: 70, at: 100, df: 105, sa: 100, sd: 105, sp: 20 },
+        weightkg: 0,
+        abilities: { 0: 'Battle Armor' }
+    },
+    'Delibird-Gold': {
+        types: ['Steel', 'Flying'],
+        bs: { hp: 70, at: 115, df: 70, sa: 65, sd: 102, sp: 78 },
+        weightkg: 0,
+        abilities: { 0: 'Long Reach' }
+    },
+    'Raticate-Dynasty': {
+        types: ['Dragon', 'Fire'],
+        bs: { hp: 65, at: 120, df: 80, sa: 45, sd: 95, sp: 95 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Delcatty-Insectoid': {
+        types: ['Normal', 'Bug'],
+        bs: { hp: 105, at: 60, df: 90, sa: 90, sd: 75, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Shield Dust' }
+    },
+    'Stonjourner-Arctic': {
+        types: ['Ice'],
+        bs: { hp: 100, at: 125, df: 115, sa: 50, sd: 40, sp: 70 },
+        weightkg: 0,
+        abilities: { 0: 'Power Spot' }
+    },
+    'Crustle-Gold': {
+        types: ['Bug', 'Steel'],
+        bs: { hp: 50, at: 65, df: 145, sa: 50, sd: 155, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Dazzling' }
+    },
+    'Mismagius-Festive': {
+        types: ['Ice', 'Fairy'],
+        bs: { hp: 60, at: 60, df: 60, sa: 105, sd: 105, sp: 105 },
+        weightkg: 0,
+        abilities: { 0: 'Magic Guard' }
+    },
+    'Drednaw-Skeletal': {
+        types: ['Ghost', 'Poison'],
+        bs: { hp: 80, at: 125, df: 100, sa: 48, sd: 100, sp: 42 },
+        weightkg: 0,
+        abilities: { 0: 'Iron Barbs' }
+    },
+    'Tauros-Dynasty': {
+        types: ['Dragon', 'Fire'],
+        bs: { hp: 75, at: 100, df: 140, sa: 40, sd: 60, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Slowking-Charged': {
+        types: ['Electric', 'Psychic'],
+        bs: { hp: 95, at: 75, df: 80, sa: 100, sd: 110, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Battery' }
+    },
+    'Lycanroc-Arctic': {
+        types: ['Ice'],
+        bs: { hp: 75, at: 115, df: 65, sa: 55, sd: 65, sp: 112 },
+        weightkg: 0,
+        abilities: { 0: 'Rough Skin' }
+    },
+    'Mightyena-Terra': {
+        types: ['Ground', 'Normal'],
+        bs: { hp: 100, at: 110, df: 60, sa: 40, sd: 90, sp: 85 },
+        weightkg: 0,
+        abilities: { 0: 'Sand Rush' }
+    },
+    'Glalie-Steampunk': {
+        types: ['Steel'],
+        bs: { hp: 80, at: 100, df: 80, sa: 70, sd: 75, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Synchronize' }
+    },
+    'Runerigus-Norse': {
+        types: ['Ice', 'Ghost'],
+        bs: { hp: 58, at: 95, df: 145, sa: 50, sd: 105, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Magic Bounce' }
+    },
+    'Meowth-Gold': {
+        types: ['Steel', 'Psychic'],
+        bs: { hp: 70, at: 50, df: 70, sa: 125, sd: 95, sp: 70 },
+        weightkg: 0,
+        abilities: { 0: 'Super Luck' }
+    },
+    'Glalie-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 100, at: 80, df: 100, sa: 40, sd: 80, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Rock Head' }
+    },
+    'Octillery-DeepSea': {
+        types: ['Water', 'Dark'],
+        bs: { hp: 75, at: 105, df: 75, sa: 105, sd: 75, sp: 45 },
+        weightkg: 0,
+        abilities: { 0: 'Suction Cups' }
+    },
+    'Froslass-Infernal': {
+        types: ['Fire', 'Ghost'],
+        bs: { hp: 70, at: 54, df: 70, sa: 105, sd: 70, sp: 111 },
+        weightkg: 0,
+        abilities: { 0: 'Competitive' }
+    },
+    'Zoroark-Shadow': {
+        types: ['Dark', 'Ghost'],
+        bs: { hp: 70, at: 50, df: 60, sa: 100, sd: 70, sp: 129 },
+        weightkg: 0,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Dunsparce-Molten': {
+        types: ['Fire', 'Rock'],
+        bs: { hp: 105, at: 85, df: 112, sa: 55, sd: 87, sp: 30 },
+        weightkg: 0,
+        abilities: { 0: 'Flame Body' }
+    },
+    'Machoke-City': {
+        types: ['Normal', 'Fighting'],
+        bs: { hp: 115, at: 145, df: 105, sa: 30, sd: 45, sp: 25 },
+        weightkg: 0,
+        abilities: { 0: 'Limber' }
+    },
+    'Qwilfish-Metal': {
+        types: ['Steel', 'Poison'],
+        bs: { hp: 75, at: 115, df: 105, sa: 45, sd: 80, sp: 40 },
+        weightkg: 0,
+        abilities: { 0: 'Poison Point' }
+    },
+    'Camerupt-Irradiated': {
+        types: ['Poison'],
+        bs: { hp: 70, at: 100, df: 70, sa: 105, sd: 75, sp: 40 },
+        weightkg: 0,
+        abilities: { 0: 'Poison Point' }
+    },
+    'Camerupt-DeepSea': {
+        types: ['Water', 'Ground'],
+        bs: { hp: 90, at: 80, df: 70, sa: 105, sd: 75, sp: 40 },
+        weightkg: 0,
+        abilities: { 0: 'Unaware' }
+    },
+    'Sandslash-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 75, at: 100, df: 120, sa: 25, sd: 65, sp: 65 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Wartortle-Forest': {
+        types: ['Grass'],
+        bs: { hp: 59, at: 63, df: 80, sa: 65, sd: 80, sp: 58 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Bayleef-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 60, at: 62, df: 80, sa: 63, sd: 80, sp: 60 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Ivysaur-Coral': {
+        types: ['Water', 'Grass'],
+        bs: { hp: 60, at: 62, df: 63, sa: 80, sd: 80, sp: 60 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Ivysaur-Infernal': {
+        types: ['Fire', 'Dark'],
+        bs: { hp: 60, at: 62, df: 63, sa: 80, sd: 80, sp: 60 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Quilava-Coral': {
+        types: ['Water'],
+        bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Torrent' }
+    },
+    'Charmeleon-Deepsea': {
+        types: ['Water'],
+        bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Hydration' }
+    },
+    'Charmeleon-Skeletal': {
+        types: ['Ghost', 'Dragon'],
+        bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Shadow Shield' }
+    },
+    'Croconaw-River': {
+        types: ['Grass', 'Water'],
+        bs: { hp: 65, at: 80, df: 80, sa: 59, sd: 63, sp: 58 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Skitty-Insectoid': {
+        types: ['Normal', 'Bug'],
+        bs: { hp: 70, at: 50, df: 65, sa: 80, sd: 55, sp: 50 },
+        weightkg: 0,
+        abilities: { 0: 'Swarm' }
+    },
+    'Buneary-KurianDark': {
+        types: ['Ghost', 'Normal'],
+        bs: { hp: 65, at: 76, df: 54, sa: 34, sd: 46, sp: 75 },
+        weightkg: 0,
+        abilities: { 0: 'Unnerve' }
+    },
+    'Sinistea-Anubis': {
+        types: ['Ghost', 'Ground'],
+        bs: { hp: 50, at: 45, df: 55, sa: 74, sd: 54, sp: 50 },
+        weightkg: 0,
+        abilities: { 0: 'Cursed Body' }
+    },
+    'Chewtle-Skeletal': {
+        types: ['Ghost', 'Poison'],
+        bs: { hp: 45, at: 84, df: 60, sa: 34, sd: 58, sp: 44 },
+        weightkg: 0,
+        abilities: { 0: 'Iron Barbs' }
+    },
+    'Chikorita-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 45, at: 49, df: 65, sa: 49, sd: 65, sp: 45 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Bulbasaur-Coral': {
+        types: ['Water', 'Grass'],
+        bs: { hp: 45, at: 49, df: 49, sa: 65, sd: 65, sp: 45 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Bulbasaur-Infernal': {
+        types: ['Fire', 'Dark'],
+        bs: { hp: 45, at: 49, df: 49, sa: 65, sd: 65, sp: 45 },
+        weightkg: 0,
+        abilities: { 0: 'Blaze' }
+    },
+    'Squirtle-Forest': {
+        types: ['Grass'],
+        bs: { hp: 44, at: 48, df: 65, sa: 50, sd: 64, sp: 43 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Totodile-River': {
+        types: ['Grass', 'Water'],
+        bs: { hp: 50, at: 65, df: 64, sa: 44, sd: 48, sp: 43 },
+        weightkg: 0,
+        abilities: { 0: 'Overgrow' }
+    },
+    'Cyndaquil-Coral': {
+        types: ['Water'],
+        bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
+        weightkg: 0,
+        abilities: { 0: 'Torrent' }
+    },
+    'Charmander-DeepSea': {
+        types: ['Water'],
+        bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
+        weightkg: 0,
+        abilities: { 0: 'Hydration' }
+    },
+    'Charmander-Skeletal': {
+        types: ['Ghost', 'Dragon'],
+        bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
+        weightkg: 0,
+        abilities: { 0: 'Shadow Shield' }
+    },
+    'Snorunt-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 50, at: 50, df: 50, sa: 50, sd: 50, sp: 50 },
+        weightkg: 0,
+        abilities: { 0: 'White Smoke' }
+    },
+    'Mega Gardevoir-Angelic': {
+        types: ['Ice', 'Electric'],
+        bs: { hp: 68, at: 85, df: 65, sa: 165, sd: 135, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Lightning Rod' }
+    },
+    'Mega Gallade-Angelic': {
+        types: ['Ice', 'Electric'],
+        bs: { hp: 68, at: 165, df: 95, sa: 65, sd: 115, sp: 110 },
+        weightkg: 0,
+        abilities: { 0: 'Volt Absorb' }
+    },
+    'Mega Metagross-Insectoid': {
+        types: ['Bug', 'Ground'],
+        bs: { hp: 80, at: 145, df: 150, sa: 105, sd: 110, sp: 110 },
+        weightkg: 0,
+        abilities: { 0: 'Mold Breaker' }
+    },
+    'Mega Camerupt-Irradiated': {
+        types: ['Poison'],
+        bs: { hp: 70, at: 120, df: 100, sa: 145, sd: 105, sp: 20 },
+        weightkg: 0,
+        abilities: { 0: 'Liquid Ooze' }
+    },
+    'Mega Lopunny-KurianDark': {
+        types: ['Ghost', 'Fighting'],
+        bs: { hp: 85, at: 135, df: 105, sa: 50, sd: 90, sp: 115 },
+        weightkg: 0,
+        abilities: { 0: 'No Guard' }
+    },
+    'Therian Tornadus-Steampunk': {
+        types: ['Steel', 'Flying'],
+        bs: { hp: 79, at: 100, df: 80, sa: 110, sd: 90, sp: 121 },
+        weightkg: 0,
+        abilities: { 0: 'Regenerator' }
+    },
+    'Mega Aggron-Phantom': {
+        types: ['Ghost', 'Steel'],
+        bs: { hp: 70, at: 140, df: 85, sa: 55, sd: 230, sp: 50 },
+        weightkg: 0,
+        abilities: { 0: 'Tough Claws' }
+    },
+    'Mega Charizard-Skeletal': {
+        types: ['Ghost', 'Dragon'],
+        bs: { hp: 78, at: 104, df: 78, sa: 159, sd: 115, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Sheer Force' }
+    },
+    'Mega Glalie-Steampunk': {
+        types: ['Steel'],
+        bs: { hp: 90, at: 120, df: 90, sa: 100, sd: 80, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Full Metal Body' }
+    },
+    'Therian Landorus-Venomous': {
+        types: ['Grass', 'Poison'],
+        bs: { hp: 89, at: 145, df: 90, sa: 105, sd: 80, sp: 91 },
+        weightkg: 0,
+        abilities: { 0: 'Regenerator' }
+    },
+    'Mega Lucario-Temple': {
+        types: ['Fighting', 'Psychic'],
+        bs: { hp: 70, at: 145, df: 88, sa: 140, sd: 70, sp: 112 },
+        weightkg: 0,
+        abilities: { 0: 'Infiltrator' }
+    },
+    'Mega Metagross-Temple': {
+        types: ['Grass', 'Rock'],
+        bs: { hp: 80, at: 145, df: 130, sa: 105, sd: 100, sp: 101 },
+        weightkg: 0,
+        abilities: { 0: 'Rock Head' }
+    },
+    'Mega Venusaur-CoralReef': {
+        types: ['Water', 'Grass'],
+        bs: { hp: 74, at: 101, df: 126, sa: 127, sd: 120, sp: 75 },
+        weightkg: 0,
+        abilities: { 0: 'Rain Dish' }
+    },
+    'Mega Camerupt-DeepSea': {
+        types: ['Water', 'Ground'],
+        bs: { hp: 90, at: 100, df: 100, sa: 145, sd: 105, sp: 20 },
+        weightkg: 0,
+        abilities: { 0: 'Mega Launcher' }
+    },
+    'Mega X Charizard-DeepSea': {
+        types: ['Water', 'Dragon'],
+        bs: { hp: 78, at: 130, df: 111, sa: 130, sd: 85, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Sheer Force' }
+    },
+    'Mega Y Charizard-DeepSea': {
+        types: ['Water', 'Flying'],
+        bs: { hp: 78, at: 104, df: 78, sa: 159, sd: 115, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Competitive' }
+    },
+    'Black Kyurem-Oblivion': {
+        types: ['Dark', 'Dragon'],
+        bs: { hp: 125, at: 130, df: 85, sa: 95, sd: 85, sp: 90 },
+        weightkg: 0,
+        abilities: { 0: 'Defiant' }
+    },
+    'White Kyurem-Oblivion': {
+        types: ['Dark', 'Dragon'],
+        bs: { hp: 125, at: 95, df: 85, sa: 130, sd: 85, sp: 90 },
+        weightkg: 0,
+        abilities: { 0: 'Competitive' }
+    },
+    'Mega Blastoise-Forest': {
+        types: ['Grass', 'Poison'],
+        bs: { hp: 79, at: 103, df: 120, sa: 135, sd: 115, sp: 78 },
+        weightkg: 0,
+        abilities: { 0: 'Thick Fat' }
+    },
+    'Mega Venusaur-Infernal': {
+        types: ['Fire', 'Dark'],
+        bs: { hp: 80, at: 82, df: 123, sa: 122, sd: 120, sp: 80 },
+        weightkg: 0,
+        abilities: { 0: 'Drought' }
+    },
+    'Mega Glalie-Infernal': {
+        types: ['Fire'],
+        bs: { hp: 80, at: 120, df: 80, sa: 120, sd: 80, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Reckless' }
+    }
+
 };
 
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH);
