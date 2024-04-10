@@ -5328,9 +5328,6 @@ var SETDEX_SV = {
     "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]},
 	  "Nasty Plot" {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
   },
-  "Charizard-DeepSea": {
-    "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]}
-  },
   "Mega Y Charizard-DeepSea": {
     "Special Sweeper": {"level":100,"ability":"Competetive","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Hurricane","Focus Blast","Dragon Pulse","Hydro Pump"]}
   },
