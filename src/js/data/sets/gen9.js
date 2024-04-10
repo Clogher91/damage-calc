@@ -5325,8 +5325,8 @@ var SETDEX_SV = {
     "Meteor Beam": {"level":100,"ability":"Steely Spirit","item":"Power Herb","nature":"Quiet","teraType":"","evs":{"df":4,"hp":252,"sa":252},"moves":["Meteor Beam","Flash Cannon","Scald","Thunderbolt"]}
   },
   "Mega Charizard-Skeletal": {
-    "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]},
-	  "Nasty Plot" {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
+  "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]},
+  "Nasty Plot": {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
   },
   "Charizard-DeepSea": {
 	   "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]},
@@ -5351,6 +5351,6 @@ var SETDEX_SV = {
     "Phsyical Scarf": {"level":100,"ability":"Strong Jaw","item":"Choice Scarf","nature":"Adamant","teraType":"","evs":{"sd":4,"at":252,"sp":252},"moves":["Anchor Shot","Crunch","Poison Fang","Ice Fang"]}
   },
 	"Lycanroc-Arctic": {
-    "Physical E-Speed Sweeper": {"level":100,"ability":"Refrigerate","item":"Life Orb","nature":"Jolly,"teraType":"","evs":{"hp":4,"at":252,"sp":252},"moves":["Extreme  Speed","Close Combat","Stomping Tantrum","Sucker Punch"]}
+    "Physical E-Speed Sweeper": {"level":100,"ability":"Refrigerate","item":"Life Orb","nature":"Jolly","teraType":"","evs":{"hp":4,"at":252,"sp":252},"moves":["Extreme Speed","Close Combat","Stomping Tantrum","Sucker Punch"]}
 	}
 };
