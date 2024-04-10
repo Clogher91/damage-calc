@@ -5285,7 +5285,8 @@ var SETDEX_SV = {
     "National Dex Doubles Showdown Usage": {"ability":"Mega Launcher","item":"Blastoisinite","nature":"Modest","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Protect","Water Pulse","Shell Smash","Aura Sphere"]}
   },
 	"Greninja-Infernal": {
-    "Obscuros OU Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sp":252},"moves":["Solar Beam","Earth Power","Flamethrower","Dark Pulse"]}
+    "Obscuros OU Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sp":252},"moves":["Solar Beam","Earth Power","Flamethrower","Dark Pulse"]},
+		"Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Life Orb","nature":"Timid","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Energy Ball","Flamethrower","Earth Power","Dark Pulse"]}
   },
   "Torito": {
     "Swords Dance Sweeper ": {"ability":"Sheer Force","item":"Life Orb","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sp":252},"moves":["Flare Blitz","Body Slam","Swords Dance","Wild Charge"]}
@@ -5297,7 +5298,7 @@ var SETDEX_SV = {
     "Z-Celebrate ": {"ability":"Cursed Body","item":"Normalium-Z","nature":"Jolly","teraType":"Electric","evs":{"at":252,"df":6,"sp":252},"moves":["Spirit Break","Return","Poltergeist","Celebrate"]}
   },
   "Mega Lopunny-KurianDark": {
-    "Fast Physical Sweeper": {"level":100,"ability":"No Guard","item":"Lopunnite","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Poltergeist","High Jump-Kick","Shadow Sneak","Spirit Break"]}
+    "Fast Physical Sweeper": {"level":100,"ability":"No Guard","item":"Lopunnite","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Poltergeist","High Jump Kick","Shadow Sneak","Spirit Break"]}
   },
   "Clefable-Demonic": {
     "Physically defensive Concept": {"ability":"Beserk","item":"Leftovers","nature":"Modest","teraType":"Electric","evs":{"hp":252,"df":252,"sa":6},"moves":["Moonblast","Mystical Fire","Nasty Plot","Dark Pulse"]},
@@ -5324,10 +5325,12 @@ var SETDEX_SV = {
     "Meteor Beam": {"level":100,"ability":"Steely Spirit","item":"Power Herb","nature":"Quiet","teraType":"","evs":{"df":4,"hp":252,"sa":252},"moves":["Meteor Beam","Flash Cannon","Scald","Thunderbolt"]}
   },
   "Mega Charizard-Skeletal": {
-    "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]}
+    "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]},
+	  "Nasty Plot" {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
   },
   "Charizard-DeepSea": {
-    "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]}
+    "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]},
+	 "Offensive Rain Setter": {"level":100,"ability":"Drizzle","item":"Heavy-Duty Boots","nature":"Timid","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Hurricane","Scald","Dark Pulse","Ice Beam"]}
   },
   "Mega Y Charizard-DeepSea": {
     "Special Sweeper": {"level":100,"ability":"Competetive","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Hurricane","Focus Blast","Dragon Pulse","Hydro Pump"]}
@@ -5337,5 +5340,18 @@ var SETDEX_SV = {
   },
   "White Kyurem-Oblivion": {
     "Special Scarf": {"level":100,"ability":"Competeitive","item":"Choice SCarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Night Daze","Draco Meteor","Shadow Ball"]}
+  },
+	"Black Kyurem-Oblivion": {
+    "Physical Scarf":  {"level":100,"ability":"Defiant","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Dragon Claw","Knock Off","Iron Head","Flare Blitz"]}
+  },
+	"Lucario-Phantom ": {
+    "Special Sweeper":{"level":100,"ability":"Shadow Shield","item":"Life Orb","nature":"Timid","teraType":"","evs":{"hp":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dark Pulse","Aura Sphere","Calm Mind"]}
+  },
+	"Haxorus Pirate": {
+    "Phsyical Scarf": {"level":100,"ability":"Strong Jaw","item":"Choice Scarf","nature":"Adamant","teraType":"","evs":{"sd":4,"at":252,"sp":252},"moves":["Anchor Shot","Crunch","Poison Fang","Ice Fang"]}
+  },
+	"Lycanroc-Arctic": {
+    "Physical E-Speed Sweeper": {"level":100,"ability":"Refrigerate","item":"Life Orb","nature":"Jolly,"teraType":"","evs":{"hp":4,"at":252,"sp":252},"moves":["Extreme  Speed","Close Combat","Stomping Tantrum","Sucker Punch"]}
   }
+
 };
