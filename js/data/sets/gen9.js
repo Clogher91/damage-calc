@@ -5283,5 +5283,11 @@ var SETDEX_SV = {
   },
   "Blastoise-Mega": {
     "National Dex Doubles Showdown Usage": {"ability":"Mega Launcher","item":"Blastoisinite","nature":"Modest","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Protect","Water Pulse","Shell Smash","Aura Sphere"]}
-  }
+  },
+	  "Greninja-Infernal": {
+    "Obscuros OU Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sp":252},"moves":["Solar Beam","Earth Power","Flamethrower","Dark Pulse"]}
+  },
+	"Tauros-Dynasty":{
+	"Clohher91 Test": {"ability":"Super Luck","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sp":252"},"moves":["Solar Beam"]}
+	}
 };
