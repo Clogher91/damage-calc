@@ -10053,7 +10053,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Magic Guard' },
     },
-    'Landorus-Venomous': {
+    'Swamporus': {
         types: ['Poison', 'Grass'],
         bs: { hp: 89, at: 115, df: 90, sa: 125, sd: 80, sp: 101 },
         weightkg: 0,
@@ -10065,7 +10065,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Flame Body' },
     },
-    'Tornadus-Steampunk': {
+    'Mechanicus': {
         types: ['Steel', 'Flying'],
         bs: { hp: 79, at: 115, df: 70, sa: 125, sd: 80, sp: 111 },
         weightkg: 0,
@@ -10221,7 +10221,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Heavy Metal' }
     },
-    'Tauros-Patriotic': {
+    'Torito': {
         types: ['Fire', 'Normal'],
         bs: { hp: 80, at: 111, df: 95, sa: 61, sd: 84, sp: 97 },
         weightkg: 0,
@@ -10245,7 +10245,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Blaze' }
     },
-    'Glaceon-Anubis': {
+    'Phareon': {
         types: ['Ground'],
         bs: { hp: 110, at: 130, df: 65, sa: 60, sd: 95, sp: 65 },
         weightkg: 0,
@@ -10383,7 +10383,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Power Spot' }
     },
-    'Crustle-Gold': {
+    'Chestle': {
         types: ['Bug', 'Steel'],
         bs: { hp: 50, at: 65, df: 145, sa: 50, sd: 155, sp: 30 },
         weightkg: 0,
@@ -10431,13 +10431,13 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Synchronize' }
     },
-    'Runerigus-Norse': {
+    'Jormungrigus': {
         types: ['Ice', 'Ghost'],
         bs: { hp: 58, at: 95, df: 145, sa: 50, sd: 105, sp: 30 },
         weightkg: 0,
         abilities: { 0: 'Magic Bounce' }
     },
-    'Meowth-Gold': {
+    'Gemneko': {
         types: ['Steel', 'Psychic'],
         bs: { hp: 70, at: 50, df: 70, sa: 125, sd: 95, sp: 70 },
         weightkg: 0,
@@ -10659,7 +10659,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'No Guard' }
     },
-    'Therian Tornadus-Steampunk': {
+    'Therian Mechanicus': {
         types: ['Steel', 'Flying'],
         bs: { hp: 79, at: 100, df: 80, sa: 110, sd: 90, sp: 121 },
         weightkg: 0,
@@ -10683,7 +10683,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'Full Metal Body' }
     },
-    'Therian Landorus-Venomous': {
+    'Therian Swamporus': {
         types: ['Grass', 'Poison'],
         bs: { hp: 89, at: 145, df: 90, sa: 105, sd: 80, sp: 91 },
         weightkg: 0,
