@@ -5289,5 +5289,8 @@ var SETDEX_SV = {
   },
 	"Tauros-Dynasty":{
 	"Clohher91 Test": {"ability":"Super Luck","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sp":252"},"moves":["Solar Beam"]}
+	},
+	"Flygon-Venomous":{
+		"OU Defensive": {"ability":"Tablets of Ruin","item":"Heavy-Duty Boots","nature":"Relaxed","teraType":"Ghost","evs":{"hp":252,"df":252,"sd":4},"moves":["Knock Off","Giga Drain","Leech Seed","Foul Play"]}
 	}
 };
