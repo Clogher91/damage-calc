@@ -5286,7 +5286,7 @@ var SETDEX_SV = {
   },
 	"Greninja-Infernal": {
     "Obscuros OU Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sp":252},"moves":["Solar Beam","Earth Power","Flamethrower","Dark Pulse"]},
-		"Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Life Orb","nature":"Timid","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Energy Ball","Flamethrower","Earth Power","Dark Pulse"]}
+		"Shiro Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Life Orb","nature":"Timid","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Energy Ball","Flamethrower","Earth Power","Dark Pulse"]}
   },
   "Torito": {
     "Swords Dance Sweeper ": {"ability":"Sheer Force","item":"Life Orb","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sp":252},"moves":["Flare Blitz","Body Slam","Swords Dance","Wild Charge"]}
@@ -5328,9 +5328,6 @@ var SETDEX_SV = {
     "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]},
 	  "Nasty Plot" {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
   },
-  "Mega Y Charizard-DeepSea": {
-    "Special Sweeper": {"level":100,"ability":"Competetive","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Hurricane","Focus Blast","Dragon Pulse","Hydro Pump"]}
-  },
   "Mechanicus": {
     "Special Scarf": {"level":100,"ability":"Aerilate","item":"Choice Scarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Hyper Voice","Sludge Wave","Flash Cannon","Psychic"]}
   },
@@ -5348,6 +5345,5 @@ var SETDEX_SV = {
   },
 	"Lycanroc-Arctic": {
     "Physical E-Speed Sweeper": {"level":100,"ability":"Refrigerate","item":"Life Orb","nature":"Jolly,"teraType":"","evs":{"hp":4,"at":252,"sp":252},"moves":["Extreme  Speed","Close Combat","Stomping Tantrum","Sucker Punch"]}
-  }
-
+	}
 };
