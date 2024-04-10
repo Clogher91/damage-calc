@@ -5286,5 +5286,56 @@ var SETDEX_SV = {
   },
 	"Greninja-Infernal": {
     "Obscuros OU Sun Sweeper": {"level":100,"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sp":252},"moves":["Solar Beam","Earth Power","Flamethrower","Dark Pulse"]}
+  },
+  "Torito": {
+    "Swords Dance Sweeper ": {"ability":"Sheer Force","item":"Life Orb","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sp":252},"moves":["Flare Blitz","Body Slam","Swords Dance","Wild Charge"]}
+  },
+  "Mightyena-Terra": {
+    "Rough Concept": {"ability":"Rough Skin","item":"Rocky Helmet","nature":"Adamant","teraType":"Electric","evs":{"at":252,"sd":6,"sp":252},"moves":["Ice Fang","Thunder Fang","Play Rough","Earthquake"]}
+  },
+  "Lopunny-KurianDark": {
+    "Z-Celebrate ": {"ability":"Cursed Body","item":"Normalium-Z","nature":"Jolly","teraType":"Electric","evs":{"at":252,"df":6,"sp":252},"moves":["Spirit Break","Return","Poltergeist","Celebrate"]}
+  },
+  "Mega Lopunny-KurianDark": {
+    "Fast Physical Sweeper": {"level":100,"ability":"No Guard","item":"Lopunnite","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Poltergeist","High Jump-Kick","Shadow Sneak","Spirit Break"]}
+  },
+  "Clefable-Demonic": {
+    "Physically defensive Concept": {"ability":"Beserk","item":"Leftovers","nature":"Modest","teraType":"Electric","evs":{"hp":252,"df":252,"sa":6},"moves":["Moonblast","Mystical Fire","Nasty Plot","Dark Pulse"]},
+    "Obscuros OU": {"level":100,"ability":"Intimidate","item":"Leftovers","nature":"","teraType":"","evs":{"df":126,"hp":252,"sp":126},"moves":["Soft-Boiled","Moonblast","Mystical Fire","Teleport"]}
+  },
+  "Noivern-Metal": {
+    "Fast Sun": {"ability":"Chlorophyll","item":"Choice Specs","nature":"Modest","teraType":"Electric","evs":{"hp":6,"sa":252,"sp":252},"moves":["Solar Beam","Flash Cannon","Thunderbolt","Boomburst"]}
+  }, 
+  "Polteageist-Anubis": {
+    "Shell Smash ": {"ability":"Water Compaction","item":"White Herb","nature":"Timid","teraType":"Electric","evs":{"sa":252,"sd":6,"sp":252},"moves":["Shell Smash","Ancient Power","Shadow Ball","Earth Power"]}
+  },
+  "Braixen-Phantom": {
+    "Sun Setter": {"ability":"Drought","item":"Heat Rock","nature":"Modest","teraType":"Electric","evs":{"hp":6,"sa":252,"sp":252},"moves":["Shadow Ball","Solar Beam","Psychic","Fire Blast"]}
+  },
+  "Swamporus-Therian": {
+    "Physically Defensive": {"ability":"Regenerator","item":"Black Sludge","nature":"Impish","teraType":"Electric","evs":{"hp":252,"df":252,"sd":4,"sp":2},"moves":["Wood Hammer","Toxic","Knock Off","Defog"]},
+    "Specially Defensive": {"level":100,"ability":"Regenerator","item":"Black Sludge","nature":"Careful","teraType":"","evs":{"at":40,"hp":252,"sd":212},"moves":["Knock Off","Leech Seed","U-Turn","Poison Jab"]}
+  },
+  "Accelgor-Shadow": {
+    "Obscuros OU": {"level":100,"ability":"Infiltrator","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Knock Off","Poison Jab","Leech Life","U-Turn"]},
+    "Obscuros OU": {"level":100,"ability":"Skill Link","item":"Choice Band","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Rock Blast","Bullet Seed","U-Turn","Pin Missile"]}
+  },
+  "Golurk-DeepSea": {
+    "Meteor Beam": {"level":100,"ability":"Steely Spirit","item":"Power Herb","nature":"Quiet","teraType":"","evs":{"df":4,"hp":252,"sa":252},"moves":["Meteor Beam","Flash Cannon","Scald","Thunderbolt"]}
+  },
+  "Mega Charizard-Skeletal": {
+    "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]}
+  },
+  "Charizard-DeepSea": {
+    "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]}
+  },
+  "Mega Y Charizard-DeepSea": {
+    "Special Sweeper": {"level":100,"ability":"Competetive","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Hurricane","Focus Blast","Dragon Pulse","Hydro Pump"]}
+  },
+  "Mechanicus": {
+    "Special Scarf": {"level":100,"ability":"Aerialite","item":"Choice Scarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Hyper Voice","Sludge Wave","Flash Cannon","Psychic"]}
+  },
+  "White Kyurem-Oblivion": {
+    "Special Scarf": {"level":100,"ability":"Competeitive","item":"Choice SCarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Night Daze","Draco Meteor","Shadow Ball"]}
   }
 };
