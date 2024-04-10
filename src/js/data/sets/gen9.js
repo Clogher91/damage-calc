@@ -5329,14 +5329,13 @@ var SETDEX_SV = {
 	  "Nasty Plot" {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
   },
   "Charizard-DeepSea": {
-    "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]},
-	 "Offensive Rain Setter": {"level":100,"ability":"Drizzle","item":"Heavy-Duty Boots","nature":"Timid","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Hurricane","Scald","Dark Pulse","Ice Beam"]}
+    "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]}
   },
   "Mega Y Charizard-DeepSea": {
     "Special Sweeper": {"level":100,"ability":"Competetive","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Hurricane","Focus Blast","Dragon Pulse","Hydro Pump"]}
   },
   "Mechanicus": {
-    "Special Scarf": {"level":100,"ability":"Aerialite","item":"Choice Scarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Hyper Voice","Sludge Wave","Flash Cannon","Psychic"]}
+    "Special Scarf": {"level":100,"ability":"Aerilate","item":"Choice Scarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Hyper Voice","Sludge Wave","Flash Cannon","Psychic"]}
   },
   "White Kyurem-Oblivion": {
     "Special Scarf": {"level":100,"ability":"Competeitive","item":"Choice SCarf","nature":"Modest","teraType":"","evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Night Daze","Draco Meteor","Shadow Ball"]}
