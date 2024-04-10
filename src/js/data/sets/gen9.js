@@ -5312,13 +5312,13 @@ var SETDEX_SV = {
   "Braixen-Phantom": {
     "Sun Setter": {"ability":"Drought","item":"Heat Rock","nature":"Modest","teraType":"Electric","evs":{"hp":6,"sa":252,"sp":252},"moves":["Shadow Ball","Solar Beam","Psychic","Fire Blast"]}
   },
-  "Swamporus-Therian": {
+  "Therian Swamporus": {
     "Physically Defensive": {"ability":"Regenerator","item":"Black Sludge","nature":"Impish","teraType":"Electric","evs":{"hp":252,"df":252,"sd":4,"sp":2},"moves":["Wood Hammer","Toxic","Knock Off","Defog"]},
     "Specially Defensive": {"level":100,"ability":"Regenerator","item":"Black Sludge","nature":"Careful","teraType":"","evs":{"at":40,"hp":252,"sd":212},"moves":["Knock Off","Leech Seed","U-Turn","Poison Jab"]}
   },
   "Accelgor-Shadow": {
-    "Obscuros OU": {"level":100,"ability":"Infiltrator","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Knock Off","Poison Jab","Leech Life","U-Turn"]},
-    "Obscuros OU": {"level":100,"ability":"Skill Link","item":"Choice Band","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Rock Blast","Bullet Seed","U-Turn","Pin Missile"]}
+    "Scarf Revenge": {"level":100,"ability":"Infiltrator","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Knock Off","Poison Jab","Leech Life","U-Turn"]},
+    "Skill Link Multihit": {"level":100,"ability":"Skill Link","item":"Choice Band","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Rock Blast","Bullet Seed","U-Turn","Pin Missile"]}
   },
   "Golurk-DeepSea": {
     "Meteor Beam": {"level":100,"ability":"Steely Spirit","item":"Power Herb","nature":"Quiet","teraType":"","evs":{"df":4,"hp":252,"sa":252},"moves":["Meteor Beam","Flash Cannon","Scald","Thunderbolt"]}
