@@ -10347,13 +10347,13 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         weightkg: 0,
         abilities: { 0: 'No Guard' }
     },
-    'Escavalier-Thunder': {
+    'Thundavalier': {
         types: ['Dark', 'Electric'],
         bs: { hp: 70, at: 100, df: 105, sa: 100, sd: 105, sp: 20 },
         weightkg: 0,
         abilities: { 0: 'Battle Armor' }
     },
-    'Escavalier-Fire': {
+    'Firavalier': {
         types: ['Dark', 'Fire'],
         bs: { hp: 70, at: 100, df: 105, sa: 100, sd: 105, sp: 20 },
         weightkg: 0,
