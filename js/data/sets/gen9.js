@@ -5282,7 +5282,7 @@ var SETDEX_SV = {
     "National Dex Doubles Showdown Usage": {"ability":"Beast Boost","item":"Dragonium Z","nature":"Timid","teraType":"Poison","evs":{"hp":4,"sa":252,"sp":252},"moves":["Draco Meteor","Sludge Wave","Sludge Bomb","Tailwind"]}
   },
   "Blastoise-Mega": {
-    "National Dex Doubles Showdown Usage": {"ability":"Mega Launcher","item":"Blastoisinite","nature":"Modest","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Protect","Water Pulse","Shell Smash","Aura Sphere"]}
+    "Naal Dex Doubles Showdown Usage": {"ability":"Mega Launcher","item":"Blastoisinite","nature":"Modest","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Protect","Water Pulse","Shell Smash","Aura Sphere"]}
   },
 	  "Greninja-Infernal": {
     "Obscuros OU Sun Sweeper": {"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fire","evs":{"sa":252,"sp":252},"moves":["Solar Beam","Earth Power","Flamethrower","Dark Pulse"]}
