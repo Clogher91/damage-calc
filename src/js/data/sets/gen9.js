@@ -5295,7 +5295,7 @@ var SETDEX_SV = {
     "Rough Concept": {"ability":"Rough Skin","item":"Rocky Helmet","nature":"Adamant","teraType":"Electric","evs":{"at":252,"sd":6,"sp":252},"moves":["Ice Fang","Thunder Fang","Play Rough","Earthquake"]}
   },
   "Lopunny-KurianDark": {
-    "Z-Celebrate ": {"ability":"Cursed Body","item":"Normalium-Z","nature":"Jolly","teraType":"Electric","evs":{"at":252,"df":6,"sp":252},"moves":["Spirit Break","Return","Poltergeist","Celebrate"]}
+    "Z-Celebrate ": {"ability":"Cursed Body","item":"Normalium Z","nature":"Jolly","teraType":"Electric","evs":{"at":252,"df":6,"sp":252},"moves":["Spirit Break","Return","Poltergeist","Celebrate"]}
   },
   "Mega Lopunny-KurianDark": {
     "Fast Physical Sweeper": {"level":100,"ability":"No Guard","item":"Lopunnite","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Poltergeist","High Jump Kick","Shadow Sneak","Spirit Break"]}
@@ -5315,18 +5315,18 @@ var SETDEX_SV = {
   },
   "Therian Swamporus": {
     "Physically Defensive": {"ability":"Regenerator","item":"Black Sludge","nature":"Impish","teraType":"Electric","evs":{"hp":252,"df":252,"sd":4,"sp":2},"moves":["Wood Hammer","Toxic","Knock Off","Defog"]},
-    "Specially Defensive": {"level":100,"ability":"Regenerator","item":"Black Sludge","nature":"Careful","teraType":"","evs":{"at":40,"hp":252,"sd":212},"moves":["Knock Off","Leech Seed","U-Turn","Poison Jab"]}
+    "Specially Defensive": {"level":100,"ability":"Regenerator","item":"Black Sludge","nature":"Careful","teraType":"","evs":{"at":40,"hp":252,"sd":212},"moves":["Knock Off","Leech Seed","U-turn","Poison Jab"]}
   },
   "Accelgor-Shadow": {
-    "Scarf Revenge": {"level":100,"ability":"Infiltrator","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Knock Off","Poison Jab","Leech Life","U-Turn"]},
-    "Skill Link Multihit": {"level":100,"ability":"Skill Link","item":"Choice Band","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Rock Blast","Bullet Seed","U-Turn","Pin Missile"]}
+    "Scarf Revenge": {"level":100,"ability":"Infiltrator","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Knock Off","Poison Jab","Leech Life","U-turn"]},
+    "Skill Link Multihit": {"level":100,"ability":"Skill Link","item":"Choice Band","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Rock Blast","Bullet Seed","U-turn","Pin Missile"]}
   },
   "Golurk-DeepSea": {
     "Meteor Beam": {"level":100,"ability":"Steely Spirit","item":"Power Herb","nature":"Quiet","teraType":"","evs":{"df":4,"hp":252,"sa":252},"moves":["Meteor Beam","Flash Cannon","Scald","Thunderbolt"]}
   },
   "Mega Charizard-Skeletal": {
   "D-Dance": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Dragon Pulse","Dragon Dance","Shadow Ball","Heat Wave"]},
-  "Nasty Plot": {"level":100,"ability":"Sheer Force","item":"Charizadite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
+  "Nasty Plot": {"level":100,"ability":"Sheer Force","item":"Charizardite Y","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dragon Pulse","Sludge Bomb","Nasty Plot"]}
   },
   "Charizard-DeepSea": {
 	   "Rain Setter": {"level":100,"ability":"Drizzle","item":"Damp Rock","nature":"Timid","teraType":"","evs":{"sd":4,"sa":252,"sp":252},"moves":["Tailwind","Defog","Hurricane","Scald"]},
@@ -5344,10 +5344,10 @@ var SETDEX_SV = {
 	"Black Kyurem-Oblivion": {
     "Physical Scarf":  {"level":100,"ability":"Defiant","item":"Choice Scarf","nature":"Jolly","teraType":"","evs":{"df":4,"at":252,"sp":252},"moves":["Dragon Claw","Knock Off","Iron Head","Flare Blitz"]}
   },
-	"Lucario-Phantom ": {
+	"Lucario-Phantom": {
     "Special Sweeper":{"level":100,"ability":"Shadow Shield","item":"Life Orb","nature":"Timid","teraType":"","evs":{"hp":4,"sa":252,"sp":252},"moves":["Shadow Ball","Dark Pulse","Aura Sphere","Calm Mind"]}
   },
-	"Haxorus Pirate": {
+	"Haxorus-Pirate": {
     "Phsyical Scarf": {"level":100,"ability":"Strong Jaw","item":"Choice Scarf","nature":"Adamant","teraType":"","evs":{"sd":4,"at":252,"sp":252},"moves":["Anchor Shot","Crunch","Poison Fang","Ice Fang"]}
   },
 	"Lycanroc-Arctic": {
