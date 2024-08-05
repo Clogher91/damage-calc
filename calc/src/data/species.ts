@@ -10123,7 +10123,8 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         types: ['Dark'],
         bs: { hp: 100, at: 60, df: 60, sa: 100, sd: 90, sp: 130 },
         weightkg: 0,
-        abilities: { 0: 'Cursed Body' }
+        abilities: { 0: 'Cursed Body' },
+      nfe:true,
     },
     'Haxorus-Pirate': {
         types: ['Water', 'Steel'],
@@ -10478,6 +10479,8 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         bs: { hp: 115, at: 145, df: 105, sa: 30, sd: 45, sp: 25 },
         weightkg: 0,
         abilities: { 0: 'Limber' }
+      ,
+      nfe:true,
     },
     'Qwilfish-Metal': {
         types: ['Steel', 'Poison'],
@@ -10508,126 +10511,148 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         bs: { hp: 59, at: 63, df: 80, sa: 65, sd: 80, sp: 58 },
         weightkg: 0,
         abilities: { 0: 'Overgrow' }
+      ,
+      nfe:true,
     },
     'Bayleef-Infernal': {
         types: ['Fire'],
         bs: { hp: 60, at: 62, df: 80, sa: 63, sd: 80, sp: 60 },
         weightkg: 0,
-        abilities: { 0: 'Blaze' }
+        abilities: { 0: 'Blaze' },
+      nfe:true,
     },
     'Ivysaur-Coral': {
         types: ['Water', 'Grass'],
         bs: { hp: 60, at: 62, df: 63, sa: 80, sd: 80, sp: 60 },
         weightkg: 0,
-        abilities: { 0: 'Overgrow' }
+        abilities: { 0: 'Overgrow' },
+      nfe:true,
     },
     'Ivysaur-Infernal': {
         types: ['Fire', 'Dark'],
         bs: { hp: 60, at: 62, df: 63, sa: 80, sd: 80, sp: 60 },
         weightkg: 0,
-        abilities: { 0: 'Blaze' }
+        abilities: { 0: 'Blaze' },
+      nfe:true,
     },
     'Quilava-Coral': {
         types: ['Water'],
         bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
         weightkg: 0,
-        abilities: { 0: 'Torrent' }
+        abilities: { 0: 'Torrent' },
+      nfe:true,
     },
     'Charmeleon-Deepsea': {
         types: ['Water'],
         bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
         weightkg: 0,
-        abilities: { 0: 'Hydration' }
+        abilities: { 0: 'Hydration' },
+      nfe:true,
     },
     'Charmeleon-Skeletal': {
         types: ['Ghost', 'Dragon'],
         bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
         weightkg: 0,
-        abilities: { 0: 'Shadow Shield' }
+        abilities: { 0: 'Shadow Shield' },
+      nfe:true,
     },
     'Croconaw-River': {
         types: ['Grass', 'Water'],
         bs: { hp: 65, at: 80, df: 80, sa: 59, sd: 63, sp: 58 },
         weightkg: 0,
-        abilities: { 0: 'Overgrow' }
+        abilities: { 0: 'Overgrow' },
+      nfe:true,
     },
     'Skitty-Insectoid': {
         types: ['Normal', 'Bug'],
         bs: { hp: 70, at: 50, df: 65, sa: 80, sd: 55, sp: 50 },
         weightkg: 0,
-        abilities: { 0: 'Swarm' }
+        abilities: { 0: 'Swarm' },
+      nfe:true,
     },
     'Buneary-KurianDark': {
         types: ['Ghost', 'Normal'],
         bs: { hp: 65, at: 76, df: 54, sa: 34, sd: 46, sp: 75 },
         weightkg: 0,
-        abilities: { 0: 'Unnerve' }
+        abilities: { 0: 'Unnerve' },
+      nfe:true,
     },
     'Sinistea-Anubis': {
         types: ['Ghost', 'Ground'],
         bs: { hp: 50, at: 45, df: 55, sa: 74, sd: 54, sp: 50 },
         weightkg: 0,
-        abilities: { 0: 'Cursed Body' }
+        abilities: { 0: 'Cursed Body' },
+      nfe:true,
     },
     'Chewtle-Skeletal': {
         types: ['Ghost', 'Poison'],
         bs: { hp: 45, at: 84, df: 60, sa: 34, sd: 58, sp: 44 },
         weightkg: 0,
-        abilities: { 0: 'Iron Barbs' }
+        abilities: { 0: 'Iron Barbs' },
+      nfe:true,
     },
     'Chikorita-Infernal': {
         types: ['Fire'],
         bs: { hp: 45, at: 49, df: 65, sa: 49, sd: 65, sp: 45 },
         weightkg: 0,
-        abilities: { 0: 'Blaze' }
+        abilities: { 0: 'Blaze' },
+      nfe:true,
     },
     'Bulbasaur-Coral': {
         types: ['Water', 'Grass'],
         bs: { hp: 45, at: 49, df: 49, sa: 65, sd: 65, sp: 45 },
         weightkg: 0,
-        abilities: { 0: 'Overgrow' }
+        abilities: { 0: 'Overgrow' },
+      nfe:true,
     },
     'Bulbasaur-Infernal': {
         types: ['Fire', 'Dark'],
         bs: { hp: 45, at: 49, df: 49, sa: 65, sd: 65, sp: 45 },
         weightkg: 0,
-        abilities: { 0: 'Blaze' }
+        abilities: { 0: 'Blaze' },
+      nfe:true,
     },
     'Squirtle-Forest': {
         types: ['Grass'],
         bs: { hp: 44, at: 48, df: 65, sa: 50, sd: 64, sp: 43 },
         weightkg: 0,
-        abilities: { 0: 'Overgrow' }
+        abilities: { 0: 'Overgrow' },
+      nfe:true,
     },
     'Totodile-River': {
         types: ['Grass', 'Water'],
         bs: { hp: 50, at: 65, df: 64, sa: 44, sd: 48, sp: 43 },
         weightkg: 0,
-        abilities: { 0: 'Overgrow' }
+        abilities: { 0: 'Overgrow' },
+      nfe:true,
     },
     'Cyndaquil-Coral': {
         types: ['Water'],
         bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
         weightkg: 0,
-        abilities: { 0: 'Torrent' }
+        abilities: { 0: 'Torrent' },
+      nfe:true,
     },
     'Charmander-DeepSea': {
         types: ['Water'],
         bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
         weightkg: 0,
-        abilities: { 0: 'Hydration' }
+        abilities: { 0: 'Hydration' },
+      nfe:true,
     },
     'Charmander-Skeletal': {
         types: ['Ghost', 'Dragon'],
         bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
         weightkg: 0,
-        abilities: { 0: 'Shadow Shield' }
+        abilities: { 0: 'Shadow Shield' },
+      nfe:true,
     },
     'Snorunt-Infernal': {
         types: ['Fire'],
         bs: { hp: 50, at: 50, df: 50, sa: 50, sd: 50, sp: 50 },
         weightkg: 0,
-        abilities: { 0: 'White Smoke' }
+        abilities: { 0: 'White Smoke' },
+      nfe:true,
     },
     'Mega Gardevoir-Angelic': {
         types: ['Ice', 'Electric'],
@@ -10754,7 +10779,19 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
         bs: { hp: 80, at: 120, df: 80, sa: 120, sd: 80, sp: 100 },
         weightkg: 0,
         abilities: { 0: 'Reckless' }
-    }
+    },
+  'Genesect-Dark':{
+    types: ['Dark','Bug'],
+    bs: { hp: 100, at: 120, df: 105, sa: 80, sd: 105, sp: 90 },
+        weightkg: 82.5,
+        abilities: { 0: 'Triage' }
+  },
+  'Guzzlord-Dredged':{
+  types:['Poison','Dark'],
+  bs: { hp: 115, at: 123, df: 87, sa: 54, sd: 123, sp: 68 },
+        weightkg: 888,
+        abilities: { 0: 'Reckless' }
+  }
 
 };
 
